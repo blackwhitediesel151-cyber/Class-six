@@ -16,8 +16,8 @@ html{
 
 body{
 
-    background:#050816;
-    color:white;
+    background:#f8fbff;
+    color:#1e293b;
     overflow-x:hidden;
 
 }
@@ -109,10 +109,12 @@ header{
 
     padding:18px 8%;
 
+    backdrop-filter:blur(20px);
 
-    background:#050816;
+    background:#ffffff;
 
-    border-bottom:1px solid rgba(255,255,255,.08);
+    border-bottom:1px solid #e5e7eb;
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
 
     z-index:999;
 
@@ -139,7 +141,7 @@ nav{
 
 nav a{
 
-    color:#d1d5db;
+    color:#334155;
 
     text-decoration:none;
 
@@ -237,7 +239,7 @@ nav a:hover{
 
     margin-top:15px;
 
-    color:#94a3b8;
+    color:#64748b;
 
 }
 
@@ -255,7 +257,7 @@ nav a:hover{
 
     background:#2563eb;
 
-    color:white;
+    color:#1e293b;
 
     text-decoration:none;
 
@@ -369,10 +371,11 @@ nav a:hover{
 .student-card,
 .day-card{
 
-    background:#111827;
+    background:#ffffff;
 
+    backdrop-filter:blur(20px);
 
-    border:1px solid rgba(255,255,255,.08);
+    border:1px solid #e5e7eb;
 
     border-radius:20px;
 
@@ -399,7 +402,7 @@ nav a:hover{
 
     text-decoration:none;
 
-    color:white;
+    color:#1e293b;
 
 }
 
@@ -425,7 +428,7 @@ nav a:hover{
 
     line-height:2;
 
-    color:#d1d5db;
+    color:#334155;
 
 }
 
@@ -462,7 +465,7 @@ nav a:hover{
 .page-header p,
 .page-title p{
 
-    color:#94a3b8;
+    color:#64748b;
 
     margin-top:10px;
 
@@ -476,7 +479,7 @@ footer{
 
     text-align:center;
 
-    color:#94a3b8;
+    color:#64748b;
 
     border-top:1px solid rgba(255,255,255,.08);
 
