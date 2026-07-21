@@ -825,6 +825,18 @@ button,
 
 }
 
+header nav a{
+    color:#d1d5db !important;
+}
+
+header nav a:hover{
+    color:#60a5fa !important;
+}
+
+header nav a.active{
+    color:#3b82f6 !important;
+}
+
 /* ===========================
    End
 =========================== *
