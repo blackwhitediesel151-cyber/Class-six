@@ -81,6 +81,14 @@ function navbarEffect(){
 
         }
 
+        header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background: #050816;
+    border-bottom: 1px solid rgba(255,255,255,.08);
+    transition: .3s;
+}
     });
 
 }
